@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alvin.gobukittinggi">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Penginapan" />
+        <activity android:name=".Wisata" />
+        <activity android:name=".Kuliner" />
+        <activity android:name=".About" />
+        <activity android:name=".kuliner1" />
+        <activity android:name=".kuliner2" />
+        <activity android:name=".kuliner3" />
+        <activity android:name=".kuliner4" />
+        <activity android:name=".kuliner5" />
+        <activity android:name=".kuliner6" />
+        <activity android:name=".kuliner7" />
+        <activity android:name=".kuliner8" />
+        <activity android:name=".kuliner9" />
+        <activity android:name=".kuliner10" />
+        <activity android:name=".wisata1" />
+        <activity android:name=".wisata2" />
+        <activity android:name=".wisata3" />
+        <activity android:name=".wisata4" />
+        <activity android:name=".wisata5" />
+        <activity android:name=".wisata6" />
+        <activity android:name=".wisata7" />
+        <activity android:name=".wisata8" />
+        <activity android:name=".wisata9" />
+        <activity android:name=".wisata10" />
+        <activity android:name=".penginapan1" />
+        <activity android:name=".penginapan2" />
+        <activity android:name=".penginapan3" />
+        <activity android:name=".penginapan4" />
+        <activity android:name=".penginapan5" />
+        <activity android:name=".penginapan6" />
+        <activity android:name=".penginapan7" />
+        <activity android:name=".penginapan8" />
+        <activity android:name=".penginapan9" />
+        <activity android:name=".penginapan10" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".maps_wisata1"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".maps_wisata2"
+            android:label="@string/title_activity_maps_wisata2" />
+        <activity
+            android:name=".maps_wisata3"
+            android:label="@string/title_activity_maps_wisata3" />
+        <activity
+            android:name=".maps_wisata4"
+            android:label="@string/title_activity_maps_wisata4" />
+        <activity
+            android:name=".maps_wisata5"
+            android:label="@string/title_activity_maps_wisata5" />
+        <activity
+            android:name=".maps_wisata6"
+            android:label="@string/title_activity_maps_wisata6" />
+        <activity
+            android:name=".maps_wisata7"
+            android:label="@string/title_activity_maps_wisata7" />
+        <activity
+            android:name=".maps_wisata8"
+            android:label="@string/title_activity_maps_wisata8" />
+        <activity
+            android:name=".maps_wisata9"
+            android:label="@string/title_activity_maps_wisata9" />
+        <activity
+            android:name=".maps_wisata10"
+            android:label="@string/title_activity_maps_wisata10" />
+        <activity
+            android:name=".maps_kuliner1"
+            android:label="@string/title_activity_maps_kuliner1" />
+        <activity
+            android:name=".maps_kuliner2"
+            android:label="@string/title_activity_maps_kuliner2" />
+        <activity
+            android:name=".maps_kuliner3"
+            android:label="@string/title_activity_maps_kuliner3" />
+        <activity
+            android:name=".maps_kuliner4"
+            android:label="@string/title_activity_maps_kuliner4" />
+        <activity
+            android:name=".maps_kuliner10"
+            android:label="@string/title_activity_maps_kuliner10" />
+        <activity
+            android:name=".maps_kuliner5"
+            android:label="@string/title_activity_maps_kuliner5" />
+        <activity
+            android:name=".maps_kuliner6"
+            android:label="@string/title_activity_maps_kuliner6" />
+        <activity
+            android:name=".maps_kuliner7"
+            android:label="@string/title_activity_maps_kuliner7" />
+        <activity
+            android:name=".maps_kuliner8"
+            android:label="@string/title_activity_maps_kuliner8" />
+        <activity
+            android:name=".maps_kuliner9"
+            android:label="@string/title_activity_maps_kuliner9" />
+        <activity
+            android:name=".maps_penginapan1"
+            android:label="@string/title_activity_maps_penginapan1" />
+        <activity
+            android:name=".maps_penginapan10"
+            android:label="@string/title_activity_maps_penginapan10" />
+        <activity
+            android:name=".maps_penginapan2"
+            android:label="@string/title_activity_maps_penginapan2" />
+        <activity
+            android:name=".maps_penginapan3"
+            android:label="@string/title_activity_maps_penginapan3" />
+        <activity
+            android:name=".maps_penginapan4"
+            android:label="@string/title_activity_maps_penginapan4" />
+        <activity
+            android:name=".maps_penginapan5"
+            android:label="@string/title_activity_maps_penginapan5" />
+        <activity
+            android:name=".maps_penginapan6"
+            android:label="@string/title_activity_maps_penginapan6" />
+        <activity
+            android:name=".maps_penginapan7"
+            android:label="@string/title_activity_maps_penginapan7" />
+        <activity
+            android:name=".maps_penginapan8"
+            android:label="@string/title_activity_maps_penginapan8" />
+        <activity
+            android:name=".maps_penginapan9"
+            android:label="@string/title_activity_maps_penginapan9"></activity>
+    </application>
+
+</manifest>

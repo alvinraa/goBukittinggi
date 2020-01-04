@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wisata5"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/wst_5_ford1"
+                app:layout_collapseMode="parallax"/>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:layout_collapseMode="pin">
+
+                <RelativeLayout
+                    android:onClick="back"
+                    android:id="@+id/tombolback"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/backbtn"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#4c0112"
+                android:id="@+id/ht_gambar">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    >
+                    <LinearLayout
+                        android:id="@+id/gbr_ht2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:background="#fff">
+
+                        <ImageView
+                            android:scaleType="fitXY"
+                            android:layout_width="350dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/wst_5_ford2"
+                            android:layout_margin="5dp"/>
+                        <ImageView
+                            android:layout_width="350dp"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/wst_5_ford3"
+                            android:layout_margin="5dp"/>
+                        <ImageView
+                            android:layout_width="350dp"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/wst_5_ford4"
+                            android:layout_margin="5dp"/>
+                        <ImageView
+                            android:layout_width="350dp"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/wst_5_ford5"
+                            android:layout_margin="5dp"/>
+                        <ImageView
+                            android:layout_width="350dp"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/wst_5_ford6"
+                            android:layout_margin="5dp"/>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_below="@+id/ht_gambar"
+                android:id="@+id/ht_info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#4c0112">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#4c0112"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tentang"
+                        android:textColor="#fff"
+                        android:textSize="11pt"
+                        android:textStyle="bold"
+                        android:background="@color/colorPrimaryDark"
+                        android:paddingLeft="10dp"/>
+
+                    <TextView
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata5_history"
+                        android:textColor="#000000"
+                        android:textSize="8pt"
+                        android:background="@color/putih"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_below="@+id/ht_info2"
+                android:id="@+id/ht_info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#4c0112">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/putih"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/satu"
+                        android:layout_marginBottom="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/ikon1"
+                            android:layout_centerVertical="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_alamat"/>
+                        <TextView
+                            android:layout_toRightOf="@+id/ikon1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jl. Yos Sudarso, Benteng Ps. Atas, Guguk Panjang, Kota Bukittinggi"
+                            android:layout_marginLeft="7dp"
+                            android:textColor="#000000"
+                            android:textSize="8pt" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/dua"
+                        android:layout_below="@+id/satu"
+                        android:layout_marginBottom="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/ikon2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_jam"/>
+                        <TextView
+                            android:layout_toRightOf="@+id/ikon2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="09.30 - 17.30"
+                            android:layout_marginLeft="7dp"
+                            android:textColor="#000000"
+                            android:textSize="8pt" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/tiga"
+                        android:layout_below="@+id/dua"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/ikon3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_tiket"/>
+                        <TextView
+                            android:layout_toRightOf="@+id/ikon3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="RP. 15.000"
+                            android:layout_marginLeft="7dp"
+                            android:textColor="#000000"
+                            android:textSize="8pt" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_below="@+id/ht_info3"
+                android:id="@+id/ht_info4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/putih">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lokasi"
+                        android:textColor="@color/putih"
+                        android:textSize="11pt"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="8dp"/>
+
+                    <Button
+                        android:id="@+id/maps_wisata5_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/icon_maps"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

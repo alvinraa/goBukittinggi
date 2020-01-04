@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004060</color>
+    <color name="colorPrimaryDark">#004060</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_menu">#BFCFFF</color>
+    <color name="bg_submenu">#eef9f6</color>
+    <color name="putih">#FFF</color>
+    <color name="hitam">#000</color>
+    <color name="kuning">#f9a91b</color>
+</resources>

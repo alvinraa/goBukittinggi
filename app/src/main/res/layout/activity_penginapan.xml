@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Penginapan"
+    android:background="@color/bg_submenu">
+
+    <RelativeLayout
+        android:id="@+id/judul_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark">
+
+        <RelativeLayout
+            android:onClick="back"
+            android:id="@+id/tombolback"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:src="@drawable/backbtn"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_toRightOf="@id/tombolback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Daftar Penginapan"
+            android:textSize="32dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@+id/judul_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="penginapan1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan1_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pg_1_hotel" />
+
+                    <TextView
+                        android:id="@+id/makanan1_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan1_gmbr"
+                        android:text="Rocky Hotel"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <ImageView
+                        android:id="@+id/ratting1"
+                        android:layout_width="95dp"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan1_judul"
+                        android:layout_toRightOf="@id/makanan1_gmbr"
+                        android:src="@drawable/bin4" />
+
+                    <TextView
+                        android:id="@+id/makanan1_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting1"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan1_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Yos Sudarso No.29, Bukittinggi, Sumatera Barat, Indonesia" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card1"
+                android:layout_margin="5dp"
+                android:onClick="penginapan2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan2_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pg_2_hotel" />
+
+                    <TextView
+                        android:id="@+id/makanan2_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan2_gmbr"
+                        android:text="Pusako Hotel"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <ImageView
+                        android:id="@+id/ratting2"
+                        android:layout_width="95dp"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan2_judul"
+                        android:layout_toRightOf="@id/makanan2_gmbr"
+                        android:src="@drawable/bin4" />
+
+                    <TextView
+                        android:id="@+id/makanan2_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting2"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan2_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Soekarno Hatta No. 7 Mandiangin Koto Selayan" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card2"
+                android:layout_margin="5dp"
+                android:onClick="penginapan3">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan3_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pg_3_hotel" />
+
+                    <TextView
+                        android:id="@+id/makanan3_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan3_gmbr"
+                        android:text="Novotel"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <ImageView
+                        android:id="@+id/ratting3"
+                        android:layout_width="95dp"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan3_judul"
+                        android:layout_toRightOf="@id/makanan3_gmbr"
+                        android:src="@drawable/bin4" />
+
+                    <TextView
+                        android:id="@+id/makanan3_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting3"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan3_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Laras Datuk Bandaro, Guguk Panjang" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card3"
+                android:layout_margin="5dp"
+                android:onClick="penginapan4">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan4_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pg_4_hotel" />
+
+                    <TextView
+                        android:id="@+id/makanan4_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan4_gmbr"
+                        android:text="Grand Malindo"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <ImageView
+                        android:id="@+id/ratting4"
+                        android:layout_width="95dp"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan4_judul"
+                        android:layout_toRightOf="@id/makanan4_gmbr"
+                        android:src="@drawable/bin2" />
+
+                    <TextView
+                        android:id="@+id/makanan4_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting4"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan4_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Panorama No. 30, Mandiangin Koto Selayan" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card4"
+                android:layout_margin="5dp"
+                android:onClick="penginapan5">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan5_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pg_5_hotel" />
+
+                    <TextView
+                        android:id="@+id/makanan5_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan5_gmbr"
+                        android:text="Mersi Hotel"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <ImageView
+                        android:id="@+id/ratting5"
+                        android:layout_width="95dp"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan5_judul"
+                        android:layout_toRightOf="@id/makanan5_gmbr"
+                        android:src="@drawable/bin2" />
+
+                    <TextView
+                        android:id="@+id/makanan5_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting5"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan5_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Tuanku Nan Renceh No.30, Guguk Panjang" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card5"
+                android:layout_margin="5dp"
+                android:onClick="penginapan6">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan6_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pg_6_hotel" />
+
+                    <TextView
+                        android:id="@+id/makanan6_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan6_gmbr"
+                        android:text="Grand Kartini"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <ImageView
+                        android:id="@+id/ratting6"
+                        android:layout_width="95dp"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan6_judul"
+                        android:layout_toRightOf="@id/makanan6_gmbr"
+                        android:src="@drawable/bin1" />
+
+                    <TextView
+                        android:id="@+id/makanan6_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting6"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan6_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Teuku Umar, No. 5, Guguk Panjang" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card6"
+                android:layout_margin="5dp"
+                android:onClick="penginapan7">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan7_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pg_7_hotel" />
+
+                    <TextView
+                        android:id="@+id/makanan7_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan7_gmbr"
+                        android:text="Nikita Hotel"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <ImageView
+                        android:id="@+id/ratting7"
+                        android:layout_width="95dp"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan7_judul"
+                        android:layout_toRightOf="@id/makanan7_gmbr"
+                        android:src="@drawable/bin1" />
+
+                    <TextView
+                        android:id="@+id/makanan7_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting7"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan7_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Sudirman No. 55, Guguk Panjang" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card7"
+                android:layout_margin="5dp"
+                android:onClick="penginapan8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan8_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pg_8_hotel" />
+
+                    <TextView
+                        android:id="@+id/makanan8_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan8_gmbr"
+                        android:text="Campago Hotel"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <ImageView
+                        android:id="@+id/ratting8"
+                        android:layout_width="95dp"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan8_judul"
+                        android:layout_toRightOf="@id/makanan8_gmbr"
+                        android:src="@drawable/bin3" />
+
+                    <TextView
+                        android:id="@+id/makanan8_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting8"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan8_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Cempaka no 1 Inkorba, Mandiangin Koto Selayan" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card8"
+                android:layout_margin="5dp"
+                android:onClick="penginapan9">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan9_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pg_9_hotel" />
+
+                    <TextView
+                        android:id="@+id/makanan9_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan9_gmbr"
+                        android:text="Jogja Hotel"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <ImageView
+                        android:id="@+id/ratting9"
+                        android:layout_width="95dp"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan9_judul"
+                        android:layout_toRightOf="@id/makanan9_gmbr"
+                        android:src="@drawable/bin1" />
+
+                    <TextView
+                        android:id="@+id/makanan9_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting9"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan9_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Perintis kemerdekaan No. 17, Guguk Panjang" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card9"
+                android:layout_margin="5dp"
+                android:onClick="penginapan10">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan10_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/pg_10_hotel" />
+
+                    <TextView
+                        android:id="@+id/makanan10_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan10_gmbr"
+                        android:text="Royal Denai"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <ImageView
+                        android:id="@+id/ratting10"
+                        android:layout_width="95dp"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan10_judul"
+                        android:layout_toRightOf="@id/makanan10_gmbr"
+                        android:src="@drawable/bin3" />
+
+                    <TextView
+                        android:id="@+id/makanan10_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting10"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan10_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Dr. Abdul Rivai No.26, Benteng Ps. Atas, Guguk Panjang" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

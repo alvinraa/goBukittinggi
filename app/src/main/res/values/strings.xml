@@ -1,0 +1,276 @@
+<resources>
+    <string name="app_name">goBukittinggi</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_wisata2">Map</string>
+    <string name="title_activity_maps_wisata3">Map</string>
+    <string name="title_activity_maps_wisata4">Map</string>
+    <string name="title_activity_maps_wisata5">Map</string>
+    <string name="title_activity_maps_wisata6">Map</string>
+    <string name="title_activity_maps_wisata7">Map</string>
+    <string name="title_activity_maps_wisata8">Map</string>
+    <string name="title_activity_maps_wisata9">Map</string>
+    <string name="title_activity_maps_wisata10">Map</string>
+    <string name="title_activity_maps_kuliner1">Map</string>
+    <string name="title_activity_maps_kuliner2">Map</string>
+    <string name="title_activity_maps_kuliner3">Map</string>
+    <string name="title_activity_maps_kuliner4">Map</string>
+    <string name="title_activity_maps_kuliner10">Map</string>
+    <string name="title_activity_maps_kuliner5">Map</string>
+    <string name="title_activity_maps_kuliner6">Map</string>
+    <string name="title_activity_maps_kuliner7">Map</string>
+    <string name="title_activity_maps_kuliner8">Map</string>
+    <string name="title_activity_maps_kuliner9">Map</string>
+    <string name="title_activity_maps_penginapan1">Map</string>
+    <string name="title_activity_maps_penginapan10">Map</string>
+    <string name="title_activity_maps_penginapan2">Map</string>
+    <string name="title_activity_maps_penginapan3">Map</string>
+    <string name="title_activity_maps_penginapan4">Map</string>
+    <string name="title_activity_maps_penginapan5">Map</string>
+    <string name="title_activity_maps_penginapan6">Map</string>
+    <string name="title_activity_maps_penginapan7">Map</string>
+    <string name="title_activity_maps_penginapan8">Map</string>
+    <string name="title_activity_maps_penginapan9">Map</string>
+
+
+    <!-- BAGIAN WISATA -->
+    <string name="wisata1_history">
+        Jika di Jakarta ada Monas, di Yogyakarta ada tugu, maka di Bukittinggi ada jam gadang.
+        Ya, jam gadang merupakan ikon dari kota yang ada di Sumatra Barat ini.
+        Berdiri di kawasan Taman Sabai Nan Aluih atau tepatnya di depan Istana Bung Hatta, jam ini selalu ramai dikunjungi wisatawan, baik lokal maupun mancanegara.
+        Mereka berkeliling taman sambil menikmati megahnya jam raksasa dengan ukuran 13 x 4 meter tersebut.
+        Untuk semakin menjamin kenyamanan pengunjung, pemerintah setempat juga melengkapi taman di sekitar jam gadang ini dengan kursi-kursi yang terbuat dari beton.
+    </string>
+
+    <string name="wisata2_history">
+        Taman Margasatwa dan Budaya Kinantan atau lebih dikenal dengan nama Kebun Binatang Bukittinggi adalah salah satu kebun binatang di pulau Sumatera,
+        yang terletak di atas Bukit Cubadak Bungkuak, Bukittinggi, Sumatera Barat, Indonesia.
+        Taman Marga Satwa dan Budaya Kinantan ini juga merupakan salah satu kebun binatang tertua yang ada di Indonesia,
+        dan satu-satunya di Sumatera Barat, dengan koleksi hewan terlengkap di pulau Sumatera
+
+
+    </string>
+
+    <string name="wisata3_history">
+        Bunker yang dibuat pada zaman penjajahan Jepang ini akan membuat wisata sejarah anda semakin lengkap.
+        Lubang yang berjarak sekitar 40 meter di bawah Ngarai Sianok ini mempunyai panjang 1.470 meter.
+Uniknya dari lubang ini adalah adanya terowongan sebanyak 21 buah.
+Di dalamnya, anda akan mendapati 21 terowongan yang pada zaman dahulu digunakan untuk tempat tinggal, tempat amunisi, ruang pertemuan, dapur, ruang penyergapan, ruang tahanan, sekaligus ruang penyiksaan.
+Di tempat ini, anda akan merasakan betapa perjuangan para pahlawan kita sangat berat di bawah tekanan Jepang.
+    </string>
+
+    <string name="wisata4_history">
+        Siapa tak kenal dengan Bung Hatta, wakil presiden pertama Indonesia?
+Ternyata salah satu tokoh yang sangat berjasa terhadap kemerdekaan bangsa ini berasal dari Bukittinggi.
+Di sini, beliau termasuk orang berada dengan memiliki tanah sangat luas.
+Untuk menghormati dan mengenang jasa beliau, rumah yang menjadi tempat kelahiran Bung Hatta pun kini dijadikan sebagai museum yang wajib untuk Anda kunjungi.
+Pengelolaan atas museum seluas 1.000 meter persegi ini langsung ditangani oleh Dinas Pariwisata, Seni, dan Budaya kota Bukittinggi.
+
+
+    </string>
+
+    <string name="wisata5_history">
+        Satu lagi peninggalan penjajah yang mempunyai nilai seni tinggi dan dijadikan sebagai tempat wisata di Bukittinggi, yaiu benteng Fort de Kock.
+Konon, benteng ini dibangun oleh tentara Belanda untuk bertahan saat menerima gempuran dari rakyat Minangkabau.
+Letaknya yang berada sekitar 1 km dari pusat kota, membuat benteng ini cukup mudah dijangkau.
+Benteng seperti ini ternyata tidak hanya berdiri di terusan Jalan Tuanku nan Renceh, namun juga terdapat di Batusangkar.
+Sebab, di kedua daerah itulah yang paling sulit untuk ditaklukkan oleh Belanda pada Perang Paderi tahun 1821 – 1837.
+
+
+    </string>
+
+    <string name="wisata6_history">
+        Taman yang berada tak jauh dari Jam Gadang ini menawarkan keindahan alam Ngarai Sianok, di mana goa Lubang Jepang berada.
+Tempat ini sangat teduh karena banyak tumbuh pepohonan rindang.
+Bahkan, di beberapa titik disediakan gazebo untuk Anda yang ingin istirahat barang sebentar setelah berkeliling taman sambil menikmati suasana damai di tempat ini.
+Tidak hanya itu, sebuah gardu pandang juga dibangun untuk pengunjung yang ingin menikmati suasana tempat ini dari atas ketinggian.
+Bagi Anda yang ingin memperoleh suvenir sebagai oleh-oleh dari Bukittinggi, seperti kaus atau lukisan, bisa berjalan ke arah belakang taman ini.
+
+
+    </string>
+
+    <string name="wisata7_history">
+        Tidak boleh masuk istana Bung Hatta, tidak menjadi soal.
+Sebab, Anda masih bisa menikmati taman yang berada di samping istana tersebut.
+Taman yang dibangun di lereng bukit rendah ini cukup rindang dan sejuk.
+Di puncak bukitnya, dibangun patung Bung Hatta yang sedang berdiri tegak dengan kepala sedikit menunduk dan tersenyum tipis.
+Sementara, salah satu tangannya terangkat ke atas seakan hendak menyapa setiap pengunjung yang datang.
+Patung ini dibangun untuk mengenang semua jasa beliau.
+
+
+    </string>
+
+    <string name="wisata8_history">
+        Janjang atau Janjang Koto Gadang adalah salah satu objek wisata yang terdapat di Ngarai Sianok, Kabupaten Agam, Sumatera Barat.
+Tangga dan jalan yang bertembok ini melintas mulai dari Koto Gadang di lembah Ngarai Sianok lalu naik ke Bukittinggi.
+Panjang keseluruhannya kira-kira sepanjang 780 m, lebar jalan 2 m, serta bertembok beton yang bentuknya menyerupai bentuk Tembok Besar Tiongkok.
+Kira-kira di pertengahan jalan bertembok ini, terdapat sebuah jambatan gantung yang sering disebut Jembatan Merah. Ditempat ini banyak masyarakat yang berolahraga dan merasakan hawa sejuknya ngarai Sianok
+
+
+    </string>
+
+    <string name="wisata9_history">
+        Seperti namanya yang mempunyai arti bukit terkurung.
+Bukit ini berada di sebuah tebing yang menjulang tinggi dan membelah sebuah sungai dengan air jernih menjadi dua jalur.
+Belum lagi adanya Puncak Singgalang, semakin membuat tempat ini seperti pulau tak terpencil.
+Konon, tempat ini terbentuk akibat adanya gempa besar yang melanda Sumatra Barat hingga membuat suatu patahan yang membentang di sepanjang Pulau Sumatra.
+Berada di tempat ini sambil menikmati suara gemerciknya air sungai yang jernih, akan membuat hati Anda menjadi tenang.
+Terlebih jika Anda duduk menikmati kopi di salah satu kafe cukup terkenal di tempat ini.
+
+
+    </string>
+
+
+    <string name="wisata10_history">
+        Taman seluas satu hektar ini terletak di belakang rumah sakit umum daerah Dr. Achmad Mochtar Bukittinggi.
+Dengan konsep ruang terbuka hijau, taman ini memang sengaja diperuntukkan bagi wisatawan yang ingin menikmati suasana teduh dan sejuk tanpa terganggu kendaraan bermotor.
+Ada berbagai fasilitas yang disediakan di tempat ini, mulai dari jalan setapak, arena bermain anak, panggung untuk pementasan, hingga spot menarik untuk berselfie.
+Di spot yang langsung menghadap ke hamparan Ngarai Sianok ini, Anda dapat berfoto ria di atas titian yang terletak di bibir ngarai. Cukup menguji adrenalin Anda sih, namun jangan khawatir karena titian ini terbuat dari rangka besi yang kuat. Jadi, Anda aman melakukan selfie di tempat ini.
+
+
+    </string>
+
+
+    <!-- BAGIAN HOTEL -->
+    <string name="penginapan1_history">
+Hotel modern ini terletak di sekitar obyek wisata populer kota ini seperti Jembatan Limpapeh, Pasar Atas, Jam Gadang.
+        Fasilitas dan pelayanan yang ditawarkan oleh Grand Rocky Hotel Bukittinggi menjaminkan pengalaman menginap yang menyenangkan bagi para tamu.
+    </string>
+
+    <string name="penginapan2_history">
+
+       Hotel Pusako Bukittinggi, Hotel bintang 4 pertama di Sumatera Barat termasuk juga pelayanan hotelnya yang profesional dan keramahannya.
+        Nikmati hiburan musik dan pertunjukan budaya untuk bersantai bersama keluarga atau teman-teman di malam hari.
+    </string>
+
+    <string name="penginapan3_history">
+        Novotel Bukittinggi terletak di pusat kota. Tamu bisa berjalan kaki ke Jam Gadang (ikon Bukittinggi), Pasar Atas, dan benteng Fort de Kock serta Jambatan Limpapeh.
+        Novotel Bukittinggi berjarak sekitar 76 km dari Bandara Internasional Minangkabau.
+    </string>
+
+    <string name="penginapan4_history">
+Hotel GRAN MALINDO terletak di pusat Kota Bukittinggi,dekat objek wisata terkenal seperti Ngarai Sianok,Goa Jepang dan Taman Panorama.
+        Dari Ketinggian yang dilatar belakangi Gunung Singgalang dan Merapi,kita bisa menatap langsung keindahan alam.
+    </string>
+
+    <string name="penginapan5_history">
+Mersi Hotel adalah salah satu hotel baru yang terletak di tengah jantung Kota Bukittinggi Sumatera Barat Indonesia yang lokasinya strategis dekat dengan objek wisata dan juga pusat pembelajaan.
+        Mersi Hotel dengan 4 lantai dan fasilitas 46 kamar tidur
+    </string>
+
+    <string name="penginapan6_history">
+Hotel Grand Kartini terletak di pusat kawasan Bukittinggi,
+        Jam Gadang, Fort de Kock, dan Pasar Atas masing-masing berjarak 5 menit berjalan kaki.
+        Kamar - kamar di tata modern dalam interior yang bergaya minimalis.
+
+    </string>
+
+    <string name="penginapan7_history">
+Hotel ini berjarak 5 menit berjalan kaki dari Jam Gadang yang terkenal di Bukittinggi.
+        Nikita Hotel adalah pilihan yang cerdas bagi para wisatawan yang berada di Bukittinggi dan menawarkan pengalaman menginap yang menenangkan setiap saat.
+    </string>
+
+    <string name="penginapan8_history">
+Menghadap ke Pegunungan Bukit Barisan, Campago Resort Hotel berjarak 10 menit berkendara dari pusat Kota BukitTinggi.
+        Daerah yang tenang dan nyaman untuk istirahat dari kesibukan sehari hari. Cocok unttk membawa keluarga dengan anak kecil.
+    </string>
+
+    <string name="penginapan9_history">
+Hotel Jogja menyediakan kamar-kamar dengan Wi-Fi gratis, berjarak 80 meter dari Istana Bung Hatta dan 100 meter dari Jam Gadang.
+        Beberapa kamar di akomodasi ini mencakup teras dengan pemandangan kota.
+    </string>
+
+
+    <string name="penginapan10_history">
+Royal Denai Hotel merupakan tempat yang sempurna untuk menikmati Bukittinggi dan sekitarnya.
+        Lingkungan yang terawat dengan baik serta lokasi yang berdekatan dengan Benteng Fort de Kock,
+        Jembatan Limpapeh, Pasar Atas Bukittinggi .
+    </string>
+
+    <!-- BAGIAN MAKANAN -->
+
+    <string name="kuliner1_history">
+Nasi ampera di Sumatera Barat seperti warteg di Jawa. Harganya lebih murah dibandingkan rumah makan.
+Konsumen hanya perlu menunjuk makanan yang ditata di rak kaca.
+Harga makanan di ampera dihargai tak sampai Rp 20.000. Satu porsi nasi, dengan satu lauk dan sayur pendamping dengan harga Rp 14.000.
+Masakan andalan rumah makan Ampera ini adalah Ayam Bakar dan Ikan Bakar. Dan usaha ini dikelola langsung oleh Keluagra Developer aplikasi ini.
+
+    </string>
+
+    <string name="kuliner2_history">
+Restoran Family Benteng Indah di Bukittinggi, Sumatera Barat, ini adalah tempat asal hidangan ayam pop.
+Dari restoran inilah ayam goreng putih saus tomat khas Minang kemudian terkenal hingga ke luar negeri.
+Ayam pop di Restoran Family Benteng ini berbeda dengan ayam pop di rumah makan khas minang lainnya.
+Di sini ayam tak digoreng garing melainkan direbus dahulu baru digoreng sangat sebentar.
+Sehingga ayam pop masih bewarna putih dengan kulit ayam yang tak garing, tetapi juga tak lembek.
+Namun demikian dagingnya masih lebih lembut dari ayam goreng biasa.
+
+    </string>
+
+    <string name="kuliner3_history">
+        Kerupuk Sanjai adalah sejenis peganan kerupuk dari singkong yang diparut tipis, dijemur hingga kering, lalu digoreng dan diberi bumbu.
+Kerupuk ini amat populer sebagai makanan oleh-oleh khas kota Bukittinggi, Sumatera Barat. Kerupuk sanjai terdiri atas tiga rasa,
+yaitu: kerupuk sanjai yang hanya diberi garam (kerupuk sanjai tawar), kerupuk sanjai yang diberikan gula merah (kerupuk sanjai saka),
+dan kerupuk sanjai yang diberikan bumbu balado (kerupuk balado).
+    </string>
+
+    <string name="kuliner4_history">
+Jika di Jogja kita mengenal nasi Gudeg, maka maka di bukittinggi ada nasi kapau.
+Nasi Kapau ialah nasi ramas khas nagari Kapau. Keunikan nasi Kapau terletak pada cara display lauknya, dan beberapa menu yang khas Kapau.
+Di nasi Kapau beragam lauk diletakkan dalam baskom-baskom besar di atas meja yang lebih rendah dari penjualnya.
+        Menu khas di kedai nasi kapau yaitu gulai kapau. Terdiri dari cubadak (nangka muda), kol dan kacang panjang yang dimasak dengan kuah gulai berwarna kekuningan dengan rasa gurih dan sedikit asam.
+Gulai kapau ini disiram di atas nasi putih, dan siap disantap bersama lauk pilihan pembeli.
+    </string>
+
+    <string name="kuliner5_history">
+Termasuk jenis Minuman Tradisional, kopi kawa daun adalah minuman yang dibuat dari seduhan daun kopi,
+tidak menggunakan biji kopi seperti kopi hitam lazimnya.Untuk meminumnya tidak menggunakan gelas,
+tetapi menggunakan batok kelapa agar aroma lebih harum dan cita rasa kopi tetap terjaga.
+
+    </string>
+
+    <string name="kuliner6_history">
+Sate Mak Aciak sudah sangat terkenal di bukittinggi berdiri sejak tahun 1950.
+sate ini terdiri dari daging sate dengan ukuran potongan yang cukup besar,
+jenisnya daging yang berlemak lalu diberi bumbu dan dibakar. disajikan dengan ketupat yang dipotong agak besar dan kuahnya berwarna kuning.
+    </string>
+
+    <string name="kuliner7_history">
+Gulai itiak lado mudo adalah gulai daging bebek muda yang dilumuri cacahan cabai hijau.
+Saking banyaknya porsi cabai, seolah daging bebek muda itu ”berendam” dalam cabai.
+Lokasinya rumah makan yang berdekatan dengan tempat wisata ngarai sianok,
+membuat kita bisa menikmati pedasnya makanan lengkap dengan sensasi alam yang begitu indah.
+    </string>
+
+    <string name="kuliner8_history">
+Pical Ayang berdiri semenjak tahun 1980,  menu utama di Pical Ayang ialah Pical atau pecel dalam versi bahasa Jawa.
+Prinsip dasar pical ala Minang tak jauh beda dengan pecel Jawa, yakni racikan berbagai macam sayuran yang disiram dengan sambal bumbu kacang, lalu disantap dengan ketupat atau lontong.
+selain pical tempat ini juga menyediakan jenis makanan dan minuman lain yang biasa disantap saat sarapan,
+seperti bubur candel, bubur kampiun, lontong sayur, teh susu, teh talua, kopi susu, dan menu lainnya
+
+    </string>
+
+    <string name="kuliner9_history">
+Bika merupakan salah satu penganan khas minang yang terbuat dari adonan sederhana yang
+terdiri dari tepung beras, kelapa parut dan gula.
+Ada 2 jenis bika, yakni yang menggunakan gula putih dan gula merah.
+Uniknya bika Koto Baru diolah dengan cara dibakar atau dipanggang di atas tungku api dan beralaskan daun jati.
+Bagian atas tungku kemudian ditutup dan dibakar lagi dengan api.
+    </string>
+
+
+    <string name="kuliner10_history">
+Merupakan jajanan yang dapat dicicipi pada malam hari karena buka pada jam 5 sore setiap harinya.
+Adonannya terdiri dari bungkusnya yang terbuat seperti kulit pie, isinya ada daging yang telah dibumbui, telur
+dan bahan lainnya. Kuahnya terbuat dari kecap dan cuka, potongan cabe rawit, tomat merah dan bawang bombay.
+
+    </string>
+
+    <string name="tentangaplikasi">
+go Bukitinggi adalah aplikasi yang digunakan untuk memberikan informasi mengenai tempat wisata, tempat makan, serta penginapan
+        favorit yang ada di kota Bukittinggi. Aplikasi ini dilengkapi dengan Maps yang terkoneksi ke Google Maps. Sehingga
+        mempermudah pengguna untuk menemukan lokasi tempat yang diinginkan.
+
+    </string>
+
+
+</resources>

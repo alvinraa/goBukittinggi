@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wisata"
+    android:background="@color/bg_submenu">
+
+    <RelativeLayout
+        android:id="@+id/judul_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark">
+
+        <RelativeLayout
+            android:onClick="back"
+            android:id="@+id/tombolback"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:src="@drawable/backbtn"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_toRightOf="@id/tombolback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Daftar Wisata"
+            android:textSize="32dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/judul_makanan"
+        android:layout_marginTop="0dp"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:onClick="wisata1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan1_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/wst_1_jam1" />
+
+                    <TextView
+                        android:id="@+id/makanan1_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan1_gmbr"
+                        android:text="Jam Gadang"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ratting1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan1_judul"
+                        android:layout_toRightOf="@id/makanan1_gmbr"
+                        android:text="0 km dari pusat kota"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/makanan1_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting1"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan1_gmbr"
+                        android:text="Jl. Raya Bukittinggi, Benteng Ps. Atas, Guguk Panjang"
+                        android:textColor="@color/hitam" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card1"
+                android:layout_margin="5dp"
+                android:onClick="wisata2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan2_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/wst_2_keb1" />
+
+                    <TextView
+                        android:id="@+id/makanan2_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan2_gmbr"
+                        android:text="Kinantan Zoo"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ratting2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan2_judul"
+                        android:layout_toRightOf="@id/makanan2_gmbr"
+                        android:text="2,4 km dari pusat kota"
+                        android:textSize="12sp"
+                        android:textColor="@color/kuning"/>
+
+                    <TextView
+                        android:id="@+id/makanan2_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting2"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan2_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Cindua Mato, Benteng Ps. Atas, Guguk Panjang" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card2"
+                android:layout_margin="5dp"
+                android:onClick="wisata3">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan3_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wst_3_jep1" />
+
+                    <TextView
+                        android:id="@+id/makanan3_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan3_gmbr"
+                        android:text="Lubang Jepang"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ratting3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan3_judul"
+                        android:layout_toRightOf="@id/makanan3_gmbr"
+                        android:text="0,65 km dari pusat kota"
+                        android:textSize="12sp"
+                        android:textColor="@color/kuning"/>
+
+                    <TextView
+                        android:id="@+id/makanan3_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting3"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan3_gmbr"
+                        android:text="Jl. Panorama, Bukit Cangang Kayu Ramang, Guguk Panjang"
+                        android:textColor="@color/hitam" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card3"
+                android:layout_margin="5dp"
+                android:onClick="wisata4">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan4_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/wst_4_rumah1" />
+
+                    <TextView
+                        android:id="@+id/makanan4_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan4_gmbr"
+                        android:text="Rumah Bung Hatta"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ratting4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan4_judul"
+                        android:layout_toRightOf="@id/makanan4_gmbr"
+                        android:text="2,1 km dari pusat kota"
+                        android:textSize="12sp"
+                        android:textColor="@color/kuning"/>
+
+                    <TextView
+                        android:id="@+id/makanan4_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting4"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan4_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Soekarno Hatta No.37, Mandiangin Koto Selayan" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card4"
+                android:layout_margin="5dp"
+                android:onClick="wisata5">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan5_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/wst_5_ford1" />
+
+                    <TextView
+                        android:id="@+id/makanan5_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan5_gmbr"
+                        android:text="Ford de Kock"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ratting5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan5_judul"
+                        android:layout_toRightOf="@id/makanan5_gmbr"
+                        android:text="1,4 km dari pusat kota"
+                        android:textSize="12sp"
+                        android:textColor="@color/kuning"/>
+
+                    <TextView
+                        android:id="@+id/makanan5_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting5"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan5_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Yos Sudarso, Benteng Ps. Atas, Guguk Panjang" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card5"
+                android:layout_margin="5dp"
+                android:onClick="wisata6">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan6_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/wst_6_panorama1" />
+
+                    <TextView
+                        android:id="@+id/makanan6_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan6_gmbr"
+                        android:text="Taman Panorama"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ratting6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan6_judul"
+                        android:layout_toRightOf="@id/makanan6_gmbr"
+                        android:text="0,65 km dari pusat kota"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/makanan6_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting6"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan6_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Panorama, Kayu Kubu, Guguk Panjang" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card6"
+                android:layout_margin="5dp"
+                android:onClick="wisata7">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan7_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/wst_7_hatta1" />
+
+                    <TextView
+                        android:id="@+id/makanan7_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan7_gmbr"
+                        android:text="Taman Bung Hatta"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ratting7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan7_judul"
+                        android:layout_toRightOf="@id/makanan7_gmbr"
+                        android:text="0,12 km dari pusat kota"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/makanan7_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting7"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan7_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Benteng Ps. Atas, Guguk Panjang" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card7"
+                android:layout_margin="5dp"
+                android:onClick="wisata8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan8_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/wst_8_wallkoto1" />
+
+                    <TextView
+                        android:id="@+id/makanan8_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan8_gmbr"
+                        android:text="Great Wall of Koto "
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ratting8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan8_judul"
+                        android:layout_toRightOf="@id/makanan8_gmbr"
+                        android:text="1,6 km dari pusat kota"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/makanan8_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting8"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan8_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Kayu Kubu, Guguk Panjang, Kota Bukittinggi" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card8"
+                android:layout_margin="5dp"
+                android:onClick="wisata9">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan9_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/wst_9_takuruang1" />
+
+                    <TextView
+                        android:id="@+id/makanan9_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan9_gmbr"
+                        android:text="Tabiang Takuruang"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ratting9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan9_judul"
+                        android:layout_toRightOf="@id/makanan9_gmbr"
+                        android:text="4,8 km dari pusat kota"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/makanan9_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting9"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan9_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Sianok Anam Suku, Iv Koto, Kabupaten Agam" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/card9"
+                android:layout_margin="5dp"
+                android:onClick="wisata10">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan10_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/wst_10_maaram1" />
+
+                    <TextView
+                        android:id="@+id/makanan10_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/makanan10_gmbr"
+                        android:text="Ngarai Maaram"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ratting10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan10_judul"
+                        android:layout_toRightOf="@id/makanan10_gmbr"
+                        android:text="1,6 km dari pusat kota"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/makanan10_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ratting10"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@+id/makanan10_gmbr"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Maaram, Kayu Kubu, Guguk Panjang" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

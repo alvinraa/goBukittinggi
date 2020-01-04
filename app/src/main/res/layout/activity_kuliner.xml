@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kuliner"
+    android:background="@color/bg_submenu">
+
+    <RelativeLayout
+        android:id="@+id/judul_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark">
+
+        <RelativeLayout
+            android:onClick="back"
+            android:id="@+id/tombolback"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="39dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/backbtn" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_toRightOf="@id/tombolback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Daftar Kuliner"
+            android:textSize="32dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@+id/judul_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card1"
+        android:layout_margin="5dp"
+        android:onClick="makanan1">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/makanan1_gmbr"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/kul_1_bunda2"
+                />
+            <TextView
+                android:id="@+id/makanan1_judul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/makanan1_gmbr"
+                android:layout_alignParentTop="true"
+                android:textSize="25sp"
+                android:text="Ampera Bunda"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <TextView
+                android:id="@+id/ratting1"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_below="@id/makanan1_judul"
+                android:layout_toRightOf="@id/makanan1_gmbr"
+                android:text="Buka : 10.00 - 21.00"
+                android:textColor="@color/kuning"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/makanan1_keterangan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/makanan1_gmbr"
+                android:layout_below="@id/ratting1"
+                android:textColor="@color/hitam"
+                android:text="Jl. Tan Malaka No.27, Bukit Canggang, Bukittinggi"
+                android:layout_marginTop="6dp"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/card2"
+                android:layout_below="@id/card1"
+                android:layout_margin="5dp"
+                android:onClick="makanan2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan2_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="fitXY"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/kul_2_benteng1"
+                        />
+                    <TextView
+                        android:id="@+id/makanan2_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan2_gmbr"
+                        android:layout_alignParentTop="true"
+                        android:textSize="25sp"
+                        android:text="Family Benteng"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <TextView
+                        android:id="@+id/ratting2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan2_judul"
+                        android:layout_toRightOf="@id/makanan2_gmbr"
+                        android:text="Buka : 08.00 - 22.00"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/makanan2_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan2_gmbr"
+                        android:layout_below="@id/ratting2"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Sudirman No.79, Birugo, Aur Birugo Tigo Baleh, Bukittinggi"
+                        android:layout_marginTop="6dp"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/card3"
+                android:layout_below="@id/card2"
+                android:layout_margin="5dp"
+                android:onClick="makanan3">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan3_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="fitXY"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/kul_3_sanjai3"
+                        />
+                    <TextView
+                        android:id="@+id/makanan3_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan3_gmbr"
+                        android:layout_alignParentTop="true"
+                        android:textSize="25sp"
+                        android:text="Keripik Sanjai"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <TextView
+                        android:id="@+id/ratting3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan3_judul"
+                        android:layout_toRightOf="@id/makanan3_gmbr"
+                        android:text="Buka : 07.00 - 22.00"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/makanan3_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan3_gmbr"
+                        android:layout_below="@id/ratting3"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Sudirman, Birugo, Aur Birugo Tigo Baleh, Bukittinggi"
+                        android:layout_marginTop="6dp"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/card4"
+                android:layout_below="@id/card3"
+                android:layout_margin="5dp"
+                android:onClick="makanan4">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan4_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/kul_4_kapau_1"
+                        />
+                    <TextView
+                        android:id="@+id/makanan4_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan4_gmbr"
+                        android:layout_alignParentTop="true"
+                        android:textSize="25sp"
+                        android:text="Nasi Kapau ni Lis"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <TextView
+                        android:id="@+id/ratting4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan4_judul"
+                        android:layout_toRightOf="@id/makanan4_gmbr"
+                        android:text="Buka : 08.00 - 18.00"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/makanan4_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan4_gmbr"
+                        android:layout_below="@id/ratting4"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Pemuda Los Lambuang, Benteng Ps. Atas, Guguk Panjang"
+                        android:layout_marginTop="6dp"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/card5"
+                android:layout_below="@id/card4"
+                android:layout_margin="5dp"
+                android:onClick="makanan5">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan5_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/kul_5_kawa1"
+                        />
+                    <TextView
+                        android:id="@+id/makanan5_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan5_gmbr"
+                        android:layout_alignParentTop="true"
+                        android:textSize="25sp"
+                        android:text="Kawa Daun"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <TextView
+                        android:id="@+id/ratting5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan5_judul"
+                        android:layout_toRightOf="@id/makanan5_gmbr"
+                        android:text="Buka : 10.00 - 23.00"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/makanan5_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan5_gmbr"
+                        android:layout_below="@id/ratting5"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Jambu Air, Taluak Ampek Suku, Banuhampu, Kabupaten Agam"
+                        android:layout_marginTop="6dp"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/card6"
+                android:layout_below="@id/card5"
+                android:layout_margin="5dp"
+                android:onClick="makanan6">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan6_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/kul_6_sate1"
+                        />
+                    <TextView
+                        android:id="@+id/makanan6_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan6_gmbr"
+                        android:layout_alignParentTop="true"
+                        android:textSize="25sp"
+                        android:text="Sate Padang"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <TextView
+                        android:id="@+id/ratting6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan6_judul"
+                        android:layout_toRightOf="@id/makanan6_gmbr"
+                        android:text="Buka : 10.00 – 21.00"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/makanan6_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan6_gmbr"
+                        android:layout_below="@id/ratting6"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Minangkabau No.55, Benteng Ps. Atas, Bukittinggi"
+                        android:layout_marginTop="6dp"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/card7"
+                android:layout_below="@id/card6"
+                android:layout_margin="5dp"
+                android:onClick="makanan7">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan7_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/kul_7_itiak1"
+                        />
+                    <TextView
+                        android:id="@+id/makanan7_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan7_gmbr"
+                        android:layout_alignParentTop="true"
+                        android:textSize="25sp"
+                        android:text="Itiak Lado Mudo"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <TextView
+                        android:id="@+id/ratting7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan7_judul"
+                        android:layout_toRightOf="@id/makanan7_gmbr"
+                        android:text="Buka : 07.00 – 16.00"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/makanan7_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan7_gmbr"
+                        android:layout_below="@id/ratting7"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Binuang No.41, Kayu Kubu, Guguk Panjang"
+                        android:layout_marginTop="6dp"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/card8"
+                android:layout_below="@id/card7"
+                android:layout_margin="5dp"
+                android:onClick="makanan8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan8_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/kul_8_pical1"
+                        />
+                    <TextView
+                        android:id="@+id/makanan8_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan8_gmbr"
+                        android:layout_alignParentTop="true"
+                        android:textSize="25sp"
+                        android:text="Pical Ayang"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <TextView
+                        android:id="@+id/ratting8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan8_judul"
+                        android:layout_toRightOf="@id/makanan8_gmbr"
+                        android:text="Buka : 06.00 – 16.00"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/makanan8_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan8_gmbr"
+                        android:layout_below="@id/ratting8"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Simpang Atas Ngarai No.37, Kayu Kubu, Guguk Panjang"
+                        android:layout_marginTop="6dp"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/card9"
+                android:layout_below="@id/card8"
+                android:layout_margin="5dp"
+                android:onClick="makanan9">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan9_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/kul_9_bika1"
+                        />
+                    <TextView
+                        android:id="@+id/makanan9_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan9_gmbr"
+                        android:layout_alignParentTop="true"
+                        android:textSize="25sp"
+                        android:text="Bika Talago"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <TextView
+                        android:id="@+id/ratting9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan9_judul"
+                        android:layout_toRightOf="@id/makanan9_gmbr"
+                        android:text="Buka : 07.00 – 19.00"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/makanan9_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan9_gmbr"
+                        android:layout_below="@id/ratting9"
+                        android:textColor="@color/hitam"
+                        android:text="Jl Raya Padang Bukittinggi km.10,Kenagarian Koto Baru"
+                        android:layout_marginTop="6dp"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/card10"
+                android:layout_below="@id/card9"
+                android:layout_margin="5dp"
+                android:onClick="makanan10">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/makanan10_gmbr"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/kul_10_mesir1"
+                        />
+                    <TextView
+                        android:id="@+id/makanan10_judul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan10_gmbr"
+                        android:layout_alignParentTop="true"
+                        android:textSize="25sp"
+                        android:text="Martabak Mesir"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <TextView
+                        android:id="@+id/ratting10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="22dp"
+                        android:layout_below="@id/makanan10_judul"
+                        android:layout_toRightOf="@id/makanan10_gmbr"
+                        android:text="Buka : 17.00 – 04.00"
+                        android:textColor="@color/kuning"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/makanan10_keterangan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/makanan10_gmbr"
+                        android:layout_below="@id/ratting10"
+                        android:textColor="@color/hitam"
+                        android:text="Jl. Moh. Syafei, Tarok Dipo, Guguk Panjang, Kota Bukittinggi"
+                        android:layout_marginTop="6dp"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

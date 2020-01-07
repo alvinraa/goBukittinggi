@@ -4,18 +4,18 @@ Aplikasi ini dibuat belajar Android Studio dengan bahasa Java. Aplikasi ini bert
 
 Berikut beberapa screenshot dari aplikasi goBukittinggi
 
-![splashscreen](https://user-images.githubusercontent.com/36125141/71878158-8ddcd180-315d-11ea-838e-bcb0698c9637.jpeg=250x250)
+![splashscreen](https://user-images.githubusercontent.com/36125141/71878158-8ddcd180-315d-11ea-838e-bcb0698c9637.jpeg){:height="150px" width="100px"}
 
 
-![homie](https://user-images.githubusercontent.com/36125141/71878151-8d443b00-315d-11ea-912c-47db17fcf70a.jpeg250x250)
+![homie](https://user-images.githubusercontent.com/36125141/71878151-8d443b00-315d-11ea-912c-47db17fcf70a.jpeg){:height="36px" width="36px"}
 
 
-![informasifood1](https://user-images.githubusercontent.com/36125141/71878152-8d443b00-315d-11ea-86ad-193483c6166a.jpeg=250x250)
+![informasifood1](https://user-images.githubusercontent.com/36125141/71878152-8d443b00-315d-11ea-86ad-193483c6166a.jpeg){:height="36px" width="36px"}
 
 
-![informasifood2](https://user-images.githubusercontent.com/36125141/71878153-8ddcd180-315d-11ea-9bff-da1117bd8406.jpeg=250x250)
+![informasifood2](https://user-images.githubusercontent.com/36125141/71878153-8ddcd180-315d-11ea-9bff-da1117bd8406.jpeg){:height="36px" width="36px"}
 
 
-![mapsfood](https://user-images.githubusercontent.com/36125141/71878155-8ddcd180-315d-11ea-8ed6-01028a581a60.jpeg=250x250)
+![mapsfood](https://user-images.githubusercontent.com/36125141/71878155-8ddcd180-315d-11ea-8ed6-01028a581a60.jpeg){:height="36px" width="36px"}
 
 
